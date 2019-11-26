@@ -34,7 +34,8 @@ int main() {
   uWS::Hub h;
 
   PID pid;
-  pid.Init(0.14,0.001,2.1);
+
+  pid.Init(0.15,0.001,2.3);
   /**
    * TODO: Initialize the pid variable.
    */
